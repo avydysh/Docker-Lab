@@ -27,7 +27,7 @@ jobs:
         with:
           context: .
           push: true
-          tags: <docker-username>/<repo-name>:latest
+          tags: avydysh/Docker-Lab:latest
 
   deploy:
     runs-on: ubuntu-latest
